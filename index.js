@@ -178,7 +178,7 @@ async function run() {
             const result = await usersCollection.updateOne(filter, updateDoc, options);
             res.json(result);
         });
-
+        /* ================================================= */
         // Update User to be Admin and verify by JWT
         // app.put('/users/admin', verifyToken, async (req, res) => {
         //     const user = req.body;
