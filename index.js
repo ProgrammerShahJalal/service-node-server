@@ -46,7 +46,6 @@ async function run() {
         const usersCollection = database.collection('users');
         const reviewsCollection = database.collection('reviews');
         const ordersCollection = database.collection('orders');
-
         // GET SERVICES API
         app.get('/services', async (req, res) => {
             const cursor = servicesCollection.find({});
