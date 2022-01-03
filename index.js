@@ -211,5 +211,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Repear site Server is running on the port :', port);
+    console.log('Repear Server site is running on the port :', port);
 })
